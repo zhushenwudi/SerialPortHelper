@@ -27,12 +27,12 @@ buildscript {
 	示例采用单例模式，文件位于 com.ilab.serialporthelper.serialport.config.SerialPort1Config
 	
 ```java
-singleton.mode = 0;    // 是否使用原始模式(Raw Mode)方式来通讯
+singleton.mode = 0;              // 是否使用原始模式(Raw Mode)方式来通讯
 singleton.path = "dev/ttyS3";    // 串口地址 [ttyS0 ~ ttyS6, ttyUSB0 ~ ttyUSB4]
-singleton.baudRate = 600;    // 波特率
-singleton.dataBits = 8;    // 数据位 [7, 8]
-singleton.parity = 'n';    // 检验类型 [N(无校验) ,E(偶校验), O(奇校验)] (大小写随意)
-singleton.stopBits = 1;    // 停止位 [1, 2]
+singleton.baudRate = 600;        // 波特率
+singleton.dataBits = 8;          // 数据位 [7, 8]
+singleton.parity = 'n';          // 检验类型 [N(无校验) ,E(偶校验), O(奇校验)] (大小写随意)
+singleton.stopBits = 1;          // 停止位 [1, 2]
 ```
 
 3.SerialUtil工具类
