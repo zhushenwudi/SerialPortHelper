@@ -81,3 +81,7 @@ serial1Util.start();
 //关闭通信线程
 serial1Util.stop();
 ```
+
+5.Log截图
+
+![Image text](https://raw.githubusercontent.com/zhushenwudi/SerialPortHelper/master/example.png)
