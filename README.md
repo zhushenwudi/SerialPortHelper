@@ -1,6 +1,6 @@
 # SerialPortHelper
 
-## 推荐由Kotlin重构的新串口通信库：https://github.com/zhushenwudi/SerialPortHelperKt
+## 推荐由Kotlin重构的新串口通信库：https://github.com/zhushenwudi/serialport
 
 本程序基于不支持创建多实例的原项目
 https://github.com/freyskill/SerialPortHelper  
